@@ -6,6 +6,7 @@ display.innerHTML=count;
 let handleIncrement=()=>{
 	count++;
 	display.innerHTML=count;
+	alert(count);
 }
 increment.addEventListener("click",handleIncrement);
 
