@@ -2,11 +2,11 @@
 let display=document.getElementById("counter");
 let increment=document.getElementById("incrementBtn");
 let count=0;
-alert(count);
+
 display.innerHTML=count;
 let handleIncrement=()=>{
-	count++;
 	display.innerHTML=count;
+	count++;
 	alert(count);
 }
 increment.addEventListener("click",handleIncrement);
