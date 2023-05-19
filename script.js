@@ -5,9 +5,9 @@ let count=0;
 
 display.innerHTML=count;
 let handleIncrement=()=>{
-	display.innerHTML=count;
-	count++;
 	alert(count);
+	count++;
+	display.innerHTML=count;
 }
 increment.addEventListener("click",handleIncrement);
 
